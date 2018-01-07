@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to repository `html_url` or owner `html_url?"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="76dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/repository"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="repository html_url"
+            android:layout_margin="10dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <Button
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="owner html_url"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="143dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
